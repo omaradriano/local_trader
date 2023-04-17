@@ -24,7 +24,7 @@ export const getUsuarioById = async (req, res) => {
         res.send(...data)
     } catch (error) {
         res.status(500).json({
-            message: 'Eres lo más bonito que se ha cruzado por mi vida, te amo mucho mi amor <3'
+            message: 'Ha ocurrido un error inesperado'
         })
     }
 }
